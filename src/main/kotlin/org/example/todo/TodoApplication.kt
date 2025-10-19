@@ -1,11 +1,12 @@
-package org.example.optitrip
+package org.example.todo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class OptiTripApplication
+class TodoApplication
+
 
 fun main(args: Array<String>) {
-    runApplication<OptiTripApplication>(*args)
+    runApplication<TodoApplication>(*args)
 }
